@@ -2,8 +2,7 @@
 This research presents a novel deep neural network-based system for gait-based person identification, specifically designed for forensic applications within a selected pool of suspects. The proposed approach utilizes an Artificial Neural Network (ANN) to identify potential criminals in evidence videos, focusing on distinguishing gait patterns. A comprehensive set of 54 gait parameters, incorporating visibility scores, is defined, and calculated on a per-cycle basis to enrich the training dataset.
 
 ## Final UI for precdicting the criminal among suspects.
-
-
+![Untitled video - Made with Clipchamp](https://github.com/cbkings/DEEP-LEARNING-BASED-HUMAN-GAIT-PATTERN-ANALYSIS-FOR-CLASSIFICATION-OF-SUSPECTS/assets/46423501/d69a1930-cf3d-4385-8458-00f4002ceca9)
 
 ## Steps involved:
 ##### 1.Prepare the dataset
