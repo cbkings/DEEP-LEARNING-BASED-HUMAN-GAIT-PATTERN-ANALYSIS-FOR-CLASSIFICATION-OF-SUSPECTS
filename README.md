@@ -12,6 +12,7 @@ This research presents a novel deep neural network-based system for gait-based p
 ##### 4.Feature vector modelling
 ##### 5.ANN model
 ##### 6.UI for predicting the criminal
+##### 7.Results 
 
 ## Prepare the dataset
 Multi-camera setup was employed, capturing footage from both side and front angles.
@@ -33,3 +34,9 @@ Deriving static and dynamic gait parameters from the extracted keypoints, includ
 ### ANN model
 During the training phase, we divided the available data into a training set and a testing set. Specifically, we recorded a total of 6 videos for each individual, reserving one video for testing purposes, and using the remaining 5 videos for model training.
 For both the side-facing and front-facing camera perspectives, we trained separate models with and without visibility scores. The models utilized the Rectified Linear Unit (ReLU) and Sigmoid activation functions, while the loss function employed was sparse categorical cross-entropy.
+
+### Results
+To evaluate the accuracy of our trained models, we recorded an evidence video set consisting of scenarios involving a selected pool of suspects (5 persons). These videos were recorded under different conditions, including wearing a coat, wearing a bag, capturing videos with angled view, and wearing a helmet.
+
+![image](https://github.com/cbkings/DEEP-LEARNING-BASED-HUMAN-GAIT-PATTERN-ANALYSIS-FOR-CLASSIFICATION-OF-SUSPECTS/assets/46423501/2d14c56b-3ec0-4d48-ada7-2fc24262980b)
+
